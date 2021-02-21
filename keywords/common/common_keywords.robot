@@ -1,13 +1,6 @@
 *** Keywords ***
-Run with open browser
-    Create webdriver    ${browser.safari}
-    Go to    ${github.host}
-
-Run without browser
-    ${mobile_emulation}    Create dictionary    deviceName=iPhone 7
-    ${chrome_options}    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
-    Run keyword if    "${env}"!="local"    Call method    ${chrome_options}   add_argument    headless
-    Create webdriver    ${browser.chrome}    chrome_options=${chrome_options}
+Open browser
+    Create webdriver    ${browser}
     Go to    ${github.host}
 
 Go to ${page} page

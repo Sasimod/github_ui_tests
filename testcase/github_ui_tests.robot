@@ -1,7 +1,7 @@
 *** Settings ***
 Resource    ../resources/imports.robot
 Resource    ../keywords/github/github_keywords.robot
-Test Setup    Run with open browser
+Test Setup    Open browser
 Test Teardown    Close browser
 
 *** Test Cases ***

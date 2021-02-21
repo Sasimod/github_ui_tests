@@ -1,7 +1,5 @@
 #### browser ####
-browser:
-#  chrome: Chrome
-  safari: Safari
+browser: Safari
 
 #### host ####
 github:
