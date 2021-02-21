@@ -1,0 +1,10 @@
+username_field: id=login_field
+password_field: id=password
+signin_btn: xpath=//input[@name='commit']
+search_input: xpath=//input[@placeholder='Search or jump to…']
+first_element_in_search_results: xpath=//ul[(@class="repo-list")]/li[1]//a
+star_btn: xpath=//form[contains(@action, "/star")]//button
+unstar_btn: xpath=//form[contains(@action, "/unstar")]//button
+go_to_file_btn: xpath=//a[contains(text(),'Go to file')]
+search_file_input: xpath=//input[@name="query"]
+first_element_in_file_tree_browser: xpath=//ul[@id="tree-browser"]/li[1]//span

@@ -1,0 +1,15 @@
+#### browser ####
+browser:
+#  chrome: Chrome
+  safari: Safari
+
+#### host ####
+github:
+    host: https://github.com
+
+#### page ####
+login_url: /login
+
+#### login ####
+username: 'input email'
+password: 'input password'
