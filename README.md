@@ -19,4 +19,4 @@ Run tests:
 robot -L TRACE --variable ENV:local -d result testcase/github_ui_tests.robot
 ```
 
-Test cases are defined in [testcase/github_ui_tests.robot](testcase/github_ui_tests.robot)
+Test cases are defined in [testcase/github_ui_tests.robot](testcases/github_ui_tests.robot)
